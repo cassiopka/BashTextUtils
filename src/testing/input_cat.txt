@@ -1,0 +1,36 @@
+../testing/file1.txt
+../testing/file1.txt ../testing/file2.txt
+../testing/file1.txt ../testing/file1.txt
+-b ../testing/file1.txt
+-e ../testing/file1.txt
+-n ../testing/file1.txt
+-s ../testing/file1.txt
+-t ../testing/file1.txt
+-b -e ../testing/file1.txt
+-b -n ../testing/file1.txt
+-b -s ../testing/file1.txt
+-b -t ../testing/file1.txt
+-e -n ../testing/file1.txt
+-e -s ../testing/file1.txt
+-e -t ../testing/file1.txt
+-n -s ../testing/file1.txt
+-n -t ../testing/file1.txt
+-s -t ../testing/file1.txt
+-ben ../testing/file1.txt
+-bes ../testing/file1.txt
+-bet ../testing/file1.txt
+-bns ../testing/file1.txt
+-bnt ../testing/file1.txt
+-bst ../testing/file1.txt
+-ens ../testing/file1.txt
+-ent ../testing/file1.txt
+-est ../testing/file1.txt
+-nst ../testing/file1.txt
+-enst ../testing/file1.txt
+-bnst ../testing/file1.txt
+-best ../testing/file1.txt
+-bent ../testing/file1.txt
+-bens ../testing/file1.txt
+-benst ../testing/file1.txt
+-tsneb ../testing/file1.txt
+-tsneb ../testing/file1.txt ../testing/file2.txt

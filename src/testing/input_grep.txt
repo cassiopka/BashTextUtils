@@ -1,0 +1,37 @@
+world ../testing/file1.txt
+world ../testing/file1.txt ../testing/file2.txt
+world ../testing/file1.txt ../testing/file1.txt
+-e world ../testing/file2.txt
+-e hello -e world ../testing/file2.txt
+-e hello -e world -e line ../testing/file1.txt ../testing/file2.txt
+-f ../testing/patterns_A.txt ../testing/file1.txt ../testing/file2.txt
+-f ../testing/patterns_A.txt -e line ../testing/file1.txt ../testing/file2.txt
+-c world ../testing/file1.txt ../testing/file2.txt
+-h world ../testing/file1.txt ../testing/file2.txt
+-i world ../testing/file1.txt ../testing/file2.txt
+-l world ../testing/file1.txt ../testing/file2.txt
+-n world ../testing/file1.txt ../testing/file2.txt
+-o world ../testing/file1.txt ../testing/file2.txt
+-s world ../testing/file1.txt ../testing/file2.txt
+-v world ../testing/file1.txt ../testing/file2.txt
+-v -e world -e line ../testing/file1.txt ../testing/file2.txt
+-clv world ../testing/file1.txt ../testing/file2.txt
+-oiv world ../testing/file1.txt ../testing/file2.txt
+-onh world ../testing/file1.txt ../testing/file2.txt
+-nvo world ../testing/file1.txt ../testing/file2.txt
+-nvi world ../testing/file1.txt ../testing/file2.txt
+-chilnosv world ../testing/file1.txt ../testing/file2.txt
+-vsonlihc world ../testing/file1.txt ../testing/file2.txt
+-vson -lihc -e world -e line ../testing/file1.txt ../testing/file2.txt
+-vsonlihc -e world -f ../testing/patterns_A.txt ../testing/file1.txt ../testing/file2.txt
+-f ../testing/patterns_B.txt ../testing/file1.txt ../testing/file2.txt
+-f ../testing/patterns_B.txt ../testing/file1.txt ../testing/file2.txt -o
+-f ../testing/patterns_B.txt ../testing/file1.txt ../testing/file2.txt -v
+-f ../testing/patterns_B.txt ../testing/file1.txt ../testing/file2.txt -oi
+-e line -e line ../testing/file1.txt
+-e line -e line ../testing/file1.txt -o
+-e hello -e HELLO ../testing/file2.txt -oi
+-e "" ../testing/file1.txt ../testing/file2.txt
+-f ../testing/empty.txt ../testing/file1.txt ../testing/file2.txt
+../testing/file1.txt -e world ../testing/file2.txt -e line -vsonih
+-f../testing/patterns_A.txt -eline ../testing/file1.txt ../testing/file2.txt

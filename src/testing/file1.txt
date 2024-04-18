@@ -1,0 +1,17 @@
+This line is not blank.
+This line is not blank too.
+The following line is blank.
+
+The following line is filled with spaces (i.e. non-blank).
+            
+The following three lines are blank.
+
+
+
+The following lines are: { blank, blank, non-blank, blank, blank }.
+
+
+							
+
+
+This is the last line.

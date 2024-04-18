@@ -1,0 +1,8 @@
+Hello world!
+HELLO WORLD!
+hEllO wOrlD!
+Good bye, world. And hello, world, again.
+School 21 is a nice place. 
+This is not an ordinary school.
+Now, I'm learning how to develop the grep utility.
+(This is the last line).
